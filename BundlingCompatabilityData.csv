@@ -1,0 +1,114 @@
+﻿Bundling Compatability Data,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+"Caution: Any changes made to the values in this worksheet (e.g., thresholds, scores, or treatment data) will directly impact the bundling scores and the resulting combinations. Ensure all modifications are intentional and consistent with the scoring logic before running the algorithm. Ensure Total Weight is always equal to 1",,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+Minimum Threshold,,60%,,,,,,,,,,,,,,,,,,,,,
+Primary Treatment Weight,,8%,,,,,,,,,,,,,,,,,,,,,
+Secondary Treatment Weight,,8%,,,,,,,,,,,,,,,,,,,,,
+Overlay Treatment Weight,,8%,,,,,,,,,,,,,,,,,,,,,
+Asphalt Mix Count Weight,,6%,,,,,,,,,,,,,,,,,,,,,
+Location Weight,,40%,,,,,,,,,,,,,,,,,,,,,
+Lane Miles Weight,,15%,,,,,,,,,,,,,,,,,,,,,
+Cost Weight,,15%,,,,,,,,,,,,,County Name,Count of Asphalt Mix,,,Treatment Mapping Table,,,,
+,,0%,,,,,,,,,,,,,,,,,,,,,
+Total Weight,,100%,,,,,,,,,,,,,Anderson,1,,,,,,,
+,,,,,,,,,,,,,,,Bedford,3,,,S/N,Input,Primary,Secondary,Overlay
+Good,,,,,,,,,,,,,,,Benton,2,,,1,CS,,Chip Seal,
+,,,,,,,,,,,,,,,Bledsoe,1,,,2,Mill,Milling,,
+Primary Treatment,,,,,,,,,,,,,,,Blount,1,,,3,411D,,,411D
+,,,,,,,,,,,,,,,Bradley,3,,,4,85 lb/sy TLD,,,85 lb/sy TLD
+,Milling,FDR,HIR,CIR,CAM,Spot,Profile Mill,Blank1,Blank2,Blank3,,,,,Campbell,2,,,5,411D Overlay,,,411D
+Milling,10,8,3,8,7,7,8,,,,,,,,Cannon,0,,,6,85TL,,,85 lb/sy TLD
+FDR,8,10,3,8,7,7,7,,,,,,,,Carroll,0,,,7,Profile Mill,Profile Mill,,
+HIR,3,3,10,3,4,4,3,,,,,,,,Carter,1,,,8,411TLD Overlay @ 85 lb/sy,,,85 lb/sy TLD
+CIR,8,8,3,10,8,7,8,,,,,,,,Cheatham,0,,,9,Hot In-Place Recycling w/ Micro,HIR,Micro-surfacing @ 22 lbs/sy,
+CAM,7,7,4,8,10,9,8,,,,,,,,Chester,0,,,10,85 lb/sy TLD,,,85 lb/sy TLD
+Spot,7,7,4,4,9,10,6,,,,,,,,Claiborne,3,,,11,65 lb/sy TL,,,65 lb/sy TLD
+Profile Mill,8,7,3,8,8,6,10,,,,,,,,Clay,0,,,12,411TL Overlay @ 65 lb/sy,,,65 lb/sy TLD
+Blank1,,,,,,,,,,,,,,,Cocke,1,,,13,Cape Seal - Chip Seal plus Micro-surfacing,,Cape Seal,
+Blank2,,,,,,,,,,,,,,,Coffee,1,,,14,OGFC,,,OGFC
+Blank3,,,,,,,,,,,,,,,Crockett,0,,,15,Crack Seal,,Crack Seal,
+,,,,,,,,,,,,,,,Cumberland,1,,,16,Micro-surfacing @ 22 lbs/sy,,Micro-surfacing @ 22 lbs/sy,
+,,,,,,,,,,,,,,,Davidson,8,,,17,Micro-surfacing @ 32 lbs/sy,,Micro-surfacing @ 32 lbs/sy,
+Secondary Treatment,,,,,,,,,,,,,,,Decatur,1,,,18,HIR,HIR,,
+,,,,,,,,,,,,,,,DeKalb,1,,,19,Full Depth Reclamation (FDR) with 411D,FDR,,411D
+,Chip Seal,Scrub Seal,Micro-surfacing @ 22 lbs/sy,Micro-surfacing @ 32 lbs/sy,Cape Seal,Fog Seal,Crack Seal,Blank1,Blank2,Blank3,,,,,Dickson,4,,,20,Full Depth Reclamation (FDR),FDR,,
+Chip Seal,10,8,9,9,9,7,6,,,,,,,,Dyer,1,,,21,307CW Overlay,,,307CW
+Scrub Seal,8,10,8,8,8,8,6,,,,,,,,Fayette,0,,,22,307CW,,,307CW
+Micro-surfacing @ 22 lbs/sy,9,8,10,10,10,8,6,,,,,,,,Fentress,1,,,23,Seal,,Chip Seal,
+Micro-surfacing @ 32 lbs/sy,9,8,10,10,10,8,6,,,,,,,,Franklin,3,,,24,Micro,,Micro-surfacing @ 22 lbs/sy,
+Cape Seal,9,8,10,10,10,8,6,,,,,,,,Gibson,1,,,25,FDR,FDR,,
+Fog Seal,7,8,8,8,8,10,6,,,,,,,,Giles,1,,,26,85 lb/sy TL,,,85 lb/sy TLD
+Crack Seal,6,6,6,6,6,6,10,,,,,,,,Grainger,1,,,27,85 lb/sy TLD,,,85 lb/sy TLD
+Blank1,,,,,,,,,,,,,,,Greene,2,,,28,411TL @132.5 lb/sy,,,411TLD
+Blank2,,,,,,,,,,,,,,,Grundy,0,,,29,411TL Overlay @ 85 lb/sy,,,85 lb/sy TLD
+Blank3,,,,,,,,,,,,,,,Hamblen,1,,,30,Scrub Seal,,Scrub Seal,
+,,,,,,,,,,,,,,,Hamilton,3,,,31,65 lb/sy TL,,,65 lb/sy TLD
+,,,,,,,,,,,,,,,Hancock,0,,,32,Cape Seal - Scrub Seal plus Micro-surfacing,,Cape Seal,
+,,,,,,,,,,,,,,,Hardeman,1,,,33,Double Chip Seal,,Chip Seal,
+Overlay Treatment,,,,,,,,,,,,,,,Hardin,2,,,34,DBST,,Chip Seal,
+,,,,,,,,,,,,,,,Hawkins,0,,,35,411TLD Overlay @ 65 lb/sy,,,65 lb/sy TLD
+,411D,411TLD,307CW,OGFC,85 lb/sy TLD,65 lb/sy TLD,Blank1,Blank2,Blank3,Blank4,,,,,Haywood,0,,,36,CIR,CIR,,
+411D,10,7,3,4,7,7,,,,,,,,,Henderson,2,,,37,Spot Leveling,Spot,,
+411TLD,7,10,3,4,8,8,,,,,,,,,Henry,1,,,38,Full depth rehab/replacement,FDR,,
+307CW,3,3,10,7,3,3,,,,,,,,,Hickman,0,,,39,Microsurface @ 22lbs/sy /  Microsurface @ 32 lbs/sy,,Micro-surfacing @ 22 lbs/sy,
+OGFC,4,4,7,10,4,4,,,,,,,,,Houston,0,,,40,TLD 85 lbs/sy,,,411TLD
+85 lb/sy TLD,7,8,3,4,10,8,,,,,,,,,Humphreys,0,,,41,411TLD,,,411TLD
+65 lb/sy TLD,7,8,3,4,8,10,,,,,,,,,Jackson,0,,,42,85 LB/SY Thin Lift,,,85 lb/sy TLD
+Blank1,,,,,,,,,,,,,,,Jefferson,2,,,43,CAM,CAM,,
+Blank2,,,,,,,,,,,,,,,Johnson,1,,,44,85 lb/sy 411TLD,,,85 lb/sy TLD
+Blank3,,,,,,,,,,,,,,,Knox,7,,,45,Fog Seal,,Fog Seal,
+Blank4,,,,,,,,,,,,,,,Lake,0,,,46,D,,,411D
+,,,,,,,,,,,,,,,Lauderdale,0,,,47,sealing with rejuvenating fog seal,,Fog Seal,
+,,,,,,,,,,,,,,,Lawrence,1,,,48,C-W,CIR,,
+,,,,,,,,,,,,,,,Lewis,0,,,49,CW,CIR,,
+,,,,,,,,,,,,,,,Lincoln,1,,,50,110Lb/SY OGFC,,,OGFC
+,,,,,,,,,,,,,,,Loudon,2,,,51,1.5 CW,,,307CW
+,,,,,,,,,,,,,,,McMinn,1,,,52,TLD,,,411TLD
+Lane Miles Calculation,,,,Cost Calculation,,,,Location Calculation,,,,,,,McNairy,1,,,53,Fog Seal,,Fog Seal,
+Lane Miles,Count,Score,,Cost,Count,Score,,Miles,Count,Score,,,,,Macon,0,,,54,Crack Sealing,,Crack Seal,
+0.00  LM,0,0.0,,$0.00,0,0.0,,0.00  Miles,,10.0,,,,,Madison,2,,,55,85 LB/SY,,,85 lb/sy TLD
+2.50  LM,218,4.4,,"$250,000.00",222,5.5,,25.00  Miles,,8.0,,,,,Marion,1,,,56,TLD,,,411TLD
+7.50  LM,452,9.2,,"$750,000.00",401,10.0,,120.00  Miles,,0.0,,,,,Marshall,5,,,57,C-W Mix @ 165 lbs/sy,,,307CW
+12.50  LM,493,10.0,,"$1,250,000.00",366,9.1,,,,,,,,,Maury,2,,,58,Thin lift @ 65 lbs/sy,,,65 lb/sy TLD
+17.50  LM,343,7.0,,"$1,750,000.00",268,6.7,,,,,,,,,Meigs,0,,,59,411TL D,,,411TLD
+22.50  LM,176,3.6,,"$2,250,000.00",171,4.3,,,,,,,,,Monroe,2,,,60,Full-depth PCC repair,FDR,,
+27.50  LM,92,1.9,,"$2,750,000.00",91,2.3,,,,,,,,,Montgomery,4,,,61,CRS2P DBST,,Chip Seal,
+32.50  LM,52,1.1,,"$3,250,000.00",75,1.9,,,,,,,,,Moore,0,,,62,"CW Mix 1.25""",,,307CW
+37.50  LM,21,0.4,,"$3,750,000.00",58,1.4,,,,,,,,,Morgan,0,,,63,MILL,Milling,,
+55.00  LM,0,0.0,,"$5,000,000.00",23,0.6,,,,,,,,,Obion,3,,,64,411TLD @ 85 lbs/sy,,,85 lb/sy TLD
+,,,,,,,,,,,,,,,Overton,1,,,65,411TLD @ 132.5 lbs/sy,,,411TLD
+,,,,,,,,,,,,,,,Perry,0,,,66,TLD,,,411TLD
+,,,,,,,,,,,,,,,Pickett,0,,,67,Hot In-Place Recycling w/ 411TLD,HIR,,411TLD
+,,,,,,,,,,,,,,,Polk,0,,,68,Micro,,Micro-surfacing @ 22 lbs/sy,
+Score Colors,,,,,,,,Date Score,,,,,,,Putnam,3,,,69,Hot In-Place Recycling,HIR,,
+,,,,,,,,Date Diff,Count,Score,,,,,Rhea,1,,,70,C,,Cape Seal,
+0  %,50  %,,,,,,,0  Months,,10.0,,,,,Roane,1,,,71,Spot,Spot,,
+50  %,70  %,,,Average Asphalt Mix Plant Count,Score,,,1  Months,,0.0,,,,,Robertson,3,,,72,Chip Seal,,Chip Seal,
+70  %,100  %,,,0,0,,,,,,,,,,Rutherford,3,,,73,Scrub Seal or Crack Seal,,Scrub Seal,
+,,,,1,9,,,,,,,,,,Scott,1,,,74,Hot Recycle in Place w/ 411TLD,HIR,,411TLD
+,,,,2,10,,,,,,,,,,Sequatchie,1,,,75,411D @ 159 lb/sy,,,411D
+,,,,4,10,,,,,,,,,,Sevier,2,,,76,Micro-surfacing,,Micro-surfacing @ 22 lbs/sy,
+,,,,10,4,,,,,,,,,,Shelby,6,,,77,"411 ""D"" Mix",,,411D
+,,,,15,0,,,,,,,,,,Smith,1,,,78,OGFC Overlay,,,OGFC
+,,,,,,,,,,,,,,,Stewart,0,,,79,411 D Overlay,,,411D
+,,,,,,,,,,,,,,,Sullivan,3,,,80,411TLD Overlay @85 lb/sy,,,85 lb/sy TLD
+,,,,,,,,,,,,,,,Sumner,1,,,81,Cape Seal,,Cape Seal,
+,,,,,,,,,,,,,,,Tipton,1,,,,,,,
+,,,,,,,,,,,,,,,Trousdale,0,,,,,,,
+,,,,,,,,,,,,,,,Unicoi,1,,,,,,,
+,,,,,,,,,,,,,,,Union,0,,,,,,,
+,,,,,,,,,,,,,,,Van Buren,0,,,,,,,
+,,,,,,,,,,,,,,,Warren,1,,,,,,,
+,,,,,,,,,,,,,,,Washington,1,,,,,,,
+,,,,,,,,,,,,,,,Wayne,0,,,,,,,
+,,,,,,,,,,,,,,,Weakley,1,,,,,,,
+,,,,,,,,,,,,,,,White,1,,,,,,,
+,,,,,,,,,,,,,,,Williamson,2,,,,,,,
+,,,,,,,,,,,,,,,Wilson,2,,,,,,,
+,,,,,,,,,,,,,,,Out-of-State,12,,,,,,,
+,,,,,,,,,,,,,,,State Average,1.326315789,,,,,,,
